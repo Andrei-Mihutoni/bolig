@@ -1,4 +1,4 @@
-fetch("http://andreimihutoni.com/wp_bolig/wp-json/wp/v2/property")
+fetch("https://andreimihutoni.com/wp_bolig/wp-json/wp/v2/property")
     .then(res => res.json())
     .then(handleData)
 
