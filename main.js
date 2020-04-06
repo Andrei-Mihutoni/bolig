@@ -14,8 +14,16 @@ function showPost(property) {
     const copy = template.cloneNode(true);
 
 
-    copy.querySelector("h2").innerHTML = property.title.rendered;
-    copy.querySelector(".body").innerHTML = property.content.rendered;
+    copy.querySelector("h2").innerHTML = property.address;
+    copy.querySelector(".bed").innerHTML = property.bedrooms;
+    copy.querySelector(".bath").innerHTML = property.bath;
+    copy.querySelector(".feet").innerHTML = property.sq_feet;
+
+//    copy.querySelector(".img_wrappper").img.src = property.guid.rendered;
+
+//    copy.querySelector(".img_wrappper").img.src = propert.image.guid;
+
+
 
 
 
