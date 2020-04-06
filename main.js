@@ -19,9 +19,8 @@ function showPost(property) {
     copy.querySelector(".bath").innerHTML = property.bath;
     copy.querySelector(".feet").innerHTML = property.sq_feet;
 
-//    copy.querySelector(".img_wrappper").img.src = property.guid.rendered;
+    copy.querySelector(".img_wrappper img").src = property.img.guid;
 
-//    copy.querySelector(".img_wrappper").img.src = propert.image.guid;
 
 
 

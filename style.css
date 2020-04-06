@@ -55,10 +55,17 @@ article {
 
 }
 
+h1 {
+    color: #656565;
+    font-weight: 400;
+    font-size: 2.5rem;
+
+}
+
 h2 {
     text-align: center;
     color: #656565;
-
+    font-weight: 400;
 }
 
 .view {
